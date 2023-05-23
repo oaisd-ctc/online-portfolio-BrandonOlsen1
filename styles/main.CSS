@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    
+}
+
+
+.myDivName {
+    border: 8px outset red;  
+    text-align: center;
+  }
+  .myDivAboutMe {
+    border: 8px outset red;  
+    text-align: center;
+  }
+  .myDivProjects {
+    border: 8px outset red;  
+    text-align: center;
+  }
+  .myDivAwards {
+    border: 8px outset red;  
+    text-align: center;
+  }
+  .myDivResume {
+    border: 8px outset red;  
+    text-align: center;
+  }
+  .myDivContact {
+    border: 8px outset red;  
+    text-align: center;
+  }
