@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+
+}
+
+
+a {
+    color: red;
+}
+
+.Home{
+    
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+p {
+    color: aliceblue;
+}
+
+.Aboutmediv {
+    
+
+    border: 20px solid red;
+    padding: 2px;
+    margin: auto;
+    font-size: 25px ;
+   
+    
+  }
+
+  div
+  {
+    color: white;
+  }
+
+  .headerofpage {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 30px;
+  }
+  .contactinfo
+  {
+    color: red;
+    font-size: 30px;
+    width: 30%;
+    border: 20px solid red;
+    padding: 2px;
+    margin: auto;
+    font-size: 25px ;
+    padding-right: 2%;
+    text-align: center;
+  }
+  .phonecontact
+  {
+    color: red;
+    font-size: 30px;
+    width: 30%;
+    border: 20px solid red;
+    padding: 2px;
+    margin: auto;
+    font-size: 25px ;
+    padding-right: 2%;
+    text-align: center;
+  }
+  .achievements
+  {
+   text-align: center; 
+   color: red;
+   font-size: 40px;
+  }
