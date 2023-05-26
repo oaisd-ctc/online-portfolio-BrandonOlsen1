@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/styles/othermain.css">
-   
+
 </head>
 
 <body>
@@ -13,12 +13,56 @@
     <div class="headerofpage">
         <h1> Projects</h1>
     </div>
-    
+
 
     <div class="Home">
         <a href="web.html">Home</a>
     </div>
+
+
+    <div class="slideshow">
+        <script>
+            var i = 0;
+            var images = [];
+            var time = 3000;
+            images[0] = 'img1.png'
+            images[1] = 'img2.png'
+            images[2] = 'img3.png'
+            images[3] = 'img4.png'
+            images[4] = 'img5.png'
+
+            function changeImg() {
+                document.slide.src = images[i];
+
+                if (i < images.length - 1) {
+                    i++
+                } else {
+                    i = 0;
+                }
+                setTimeout("changeImg()", time);
+            }
+            window.onload = changeImg;
+
+
+        </script>
+    </div>
+
+    <img name="slide" height="500px" width="750px">
+
+
+   <!-- <div class="Home">
+      
+        <p>If you are interested in seeing the rest of my code or playing my games all of that is on my github</p>
+        <a href="https://github.com/BrandonOlsen1"  target="_blank">Click here for my github</a>
+    </div>
     
+-->
+    
+
+
+
+
+
 
 </body>
 
